@@ -23,11 +23,8 @@ int main(void)
 {
     int a[] = {23, 4, 21, 98, 98, 45, 32, 10, 123, 986, 50, 3, 4, 5};
     int min, max;
-
     int len = sizeof(a) / sizeof(a[0]);
-
     minMax(a, len, &min, &max);
-
     printf("Minimum value in the array is: %d\n", min);
     printf("Maximum value in the array is: %d\n", max);
 
