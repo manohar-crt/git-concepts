@@ -188,4 +188,8 @@ int main(void)
      printf("%d", add(arr, len));
     return 0;
 }
+// p represemts the pointer of the  1D array
+// * = the reference   , *p = pointerr to the forst element of first element of first  1D array
+
+
 */
